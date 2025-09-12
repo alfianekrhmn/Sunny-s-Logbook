@@ -1,63 +1,51 @@
-# 🌊 Sunny’s Logbook  
+project:
+  name: "Sunny’s Logbook"
+  description: |
+    Ahoy, nakama! ⚓
+    **Sunny’s Logbook** adalah website sederhana bertema One Piece yang dibuat untuk mencatat perjalanan kru Topi Jerami. 
+    Website ini berisi halaman utama, daftar kru dengan bounty mereka, serta form kontak sederhana untuk berkomunikasi.
 
-Ahoy, nakama! ⚓  
-**Sunny’s Logbook** adalah website sederhana bertema *One Piece* yang dibuat untuk mencatat perjalanan kru *Topi Jerami*. Website ini berisi halaman utama, daftar kru dengan bounty mereka, serta form kontak sederhana untuk berkomunikasi.  
+features:
+  - name: "Home Page"
+    details:
+      - "Judul: 'Sunny’s Logbook'"
+      - "Ilustrasi kapal Thousand Sunny"
+  - name: "Crew Page"
+    details:
+      - "Daftar kru Topi Jerami (Luffy, Zoro, Nami, Usopp, Sanji)"
+      - "Informasi dalam table atau grid"
+      - "Data: Nama, Jabatan, Bounty"
+  - name: "Contact Page"
+    details:
+      - "Form sederhana dengan input Nama, Email, Pesan"
 
----
+goals:
+  - "Melatih dasar HTML & CSS"
+  - "Membuat struktur multi-page website"
+  - "Belajar menata konten dengan table dan grid layout"
+  - "Membiasakan diri dengan struktur dokumentasi web sederhana"
 
-## 🗂️ Fitur Utama  
-- 🏠 **Home Page**  
-  - Judul: *"Sunny’s Logbook"*  
-  - Ilustrasi kapal *Thousand Sunny*  
+technologies:
+  - HTML5
+  - CSS3
 
-- 👥 **Crew Page**  
-  - Daftar kru *Topi Jerami* (minimal 5 orang: **Luffy, Zoro, Nami, Usopp, Sanji**)  
-  - Informasi ditampilkan dalam **table** atau **grid**  
-  - Data yang ditampilkan:  
-    - **Nama**  
-    - **Jabatan**  
-    - **Bounty**  
+structure: |
+  Sunny’s Logbook/
+  │── index.html        # Halaman Home
+  │── crew.html         # Halaman Crew
+  │── contact.html      # Halaman Contact
+  │── assets/
+  │    ├── images/      # Gambar kapal & kru
+  │    └── styles.css   # Styling utama
 
-- ✉️ **Contact Page**  
-  - Form sederhana berisi:  
-    - Input **Nama**  
-    - Input **Email**  
-    - Textarea **Pesan**  
+usage:
+  steps:
+    - "Clone repository:"
+    - "git clone https://github.com/username/sunnys-logbook.git"
+    - "Buka file index.html di browser"
+    - "Jelajahi halaman Home, Crew, dan Contact"
 
----
-
-## 🎯 Tujuan Project  
-- Melatih dasar **HTML & CSS**  
-- Membuat struktur **multi-page website**  
-- Belajar menata konten menggunakan **table** dan **grid layout**  
-- Membiasakan diri dengan struktur dokumentasi web sederhana  
-
----
-
-## 🛠️ Teknologi yang Digunakan  
-- **HTML5** → Struktur halaman  
-- **CSS3** → Styling dasar  
-
----
-
-## 📂 Struktur Project  
-
-Sunny’s Logbook/
-│── index.html # Halaman Home
-│── crew.html # Halaman Crew
-│── contact.html # Halaman Contact
-│── assets/
-│ ├── images/ # Gambar kapal & kru
-│ └── styles.css # Styling utama
+quote: |
+  🔥 "I’m gonna be King of the Pirates!" – Monkey D. Luffy
 
 
----
-
-## 🚀 Cara Menjalankan  
-1. Clone repository ini  
-   ```bash
-   git clone https://github.com/username/sunnys-logbook.git
-2.	Buka file index.html di browser
-3.	Jelajahi halaman Home, Crew, dan Contact
-
-🔥 "I’m gonna be King of the Pirates!" – Monkey D. Luffy
