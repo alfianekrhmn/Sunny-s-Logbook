@@ -14,9 +14,15 @@ body {
 
 /* container dengan background */
 .home-container {
+    min-height: 100vh;
     height: 100vh;
     background: url(sunny.png) no-repeat center center/cover;
     position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* navbar */
@@ -143,3 +149,32 @@ body {
 .characters p{
     font-size: 10px;
 }
+
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: dodgerblue;
+    border: solid 2px black;
+    max-width: 500px;
+    padding: 20px;
+    margin-right: 570px;
+    margin-top: 150px;
+}
+
+form {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    min-width: 48%;
+    margin-bottom: 10px;
+}
+
