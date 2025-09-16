@@ -7,20 +7,19 @@
     <title>Sunny’s Logbook</title>
 </head>
 <body>
-    <div class="home-container" id="Home">
-        <!-- Navbar start -->
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="one-piece.png" alt="one piece logo" srcset=""></a>
-            </div>
-            <button class="menu-toggle">☰</button>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#crew">Crew</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Navbar End -->
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="one-piece.png" alt="one piece logo" srcset=""></a>
+        </div>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#crew">Crew</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Navbar End -->
 
         <!-- Hero Start -->
          <section id="home" class="hero">
@@ -30,72 +29,92 @@
 
 
          <!-- Crew Start -->
-         <section id="crew" class="crew-container">
+         <!-- <section id="crew" class="crew-container">
             <div class="characters">
                 <img src="/char one piece/luffy.jpg" alt="" srcset="">
-                <h4>Monkey D Luffy</h4>
-                <p>Role: Pirates Captain</p>
-                <p>Bounty: 3.000.000</p>
+                <div class="info">
+                    <h4>Monkey D Luffy</h4>
+                    <p>Role: Pirates Captain</p>
+                    <p>Bounty: 3.000.000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/zoro.jpg" alt="" srcset="">
-                <h4>Roronoa Zoro</h4>
-                <p>Role: Right-hand Man</p>
-                <p>Bounty: 1,111,000,000</p>
+                <div class="info">
+                    <h4>Roronoa Zoro</h4>
+                    <p>Role: Right-hand Man</p>
+                    <p>Bounty: 1,111,000,000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/nami.jpg" alt="" srcset="">
-                <h4>Nami</h4>
-                <p>Role: Navigator</p>
-                <p>Bounty: 366.000</p>
+                <div class="info">
+                    <h4>Nami</h4>
+                    <p>Role: Navigator</p>
+                    <p>Bounty: 366.000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/usopp.jpg" alt="" srcset="">
-                <h4>Usopp</h4>
+                <div class="info">
+                    <h4>Usopp</h4>
                 <p>Role: Sniper</p>
                 <p>Bounty: 500.000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/sanji.jpg" alt="" srcset="">
-                <h4>Vinsmoke Sanji</h4>
+                <div class="info">
+                    <h4>Vinsmoke Sanji</h4>
                 <p>Role: Cook</p>
                 <p>Bounty: 1,032,000,000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/chopper.jpg" alt="" srcset="">
-                <h4>Tony Tony Chopper</h4>
+                <div class="info">
+                    <h4>Tony Tony Chopper</h4>
                 <p>Role: Doctor</p>
                 <p>Bounty: 1000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/robin.jpg" alt="" srcset="">
-                <h4>Nico Robin</h4>
+                <div class="info">
+                    <h4>Nico Robin</h4>
                 <p>Role: Archaeologist</p>
                 <p>Bounty :930.000.000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/franky.jpg" alt="" srcset="">
-                <h4>Franky</h4>
+                <div class="info">
+                    <h4>Franky</h4>
                 <p>Role: Shipwright</p>
                 <p>Bounty: 394,000,000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/brook.jpg" alt="" srcset="">
-                <h4>Brook</h4>
+                <div class="info">
+                    <h4>Brook</h4>
                 <p>Role: Musician</p>
                 <p>Bounty: 383.000.000</p>
+                </div>
             </div>
             <div class="characters">
                 <img src="/char one piece/jinbei.jpg" alt="" srcset="">
-                <h4>Jinbe</h4>
+                <div class="info">
+                    <h4>Jinbe</h4>
                 <p>Role: Helmsman</p>
                 <p>Role: 1.100.000</p>
+                </div>
             </div>
-         </section>
+         </section> -->
          <!-- Crew End -->
 
          <!-- Contact Start -->
-         <section id="contact" class="contact-form">
+         <!-- <section id="contact" class="contact-form">
             <h4>Contact Sunny’s Logbook</h4><br><br>
             <form action="#" method="post">
                 <label for="firstname">Firstname: </label><br>
@@ -122,9 +141,16 @@
                 <textarea name="reason" id="reason" cols="30" rows="10"></textarea>
                 <button type="submit">Send</button>
             </form>
-         </section>
+         </section> -->
          <!-- Contact End -->
 
-    </div>
+         <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
+            });
+         </script>
 </body>
 </html>
