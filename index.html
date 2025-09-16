@@ -13,20 +13,118 @@
             <div class="logo">
                 <a href="index.html"><img src="one-piece.png" alt="one piece logo" srcset=""></a>
             </div>
+            <button class="menu-toggle">☰</button>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="crew.html">Crew</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#crew">Crew</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <!-- Navbar End -->
 
-        <!-- Overlay text start -->
-         <div class="overlay">
+        <!-- Hero Start -->
+         <section id="home" class="hero">
             <h1>Sunny's Logbook</h1>
-            <p>The Adventure of the Straw Hat Pirates</p>
-         </div>
-         <!-- Overlay text end -->
+         </section>
+         <!-- Hero end  -->
+
+
+         <!-- Crew Start -->
+         <section id="crew" class="crew-container">
+            <div class="characters">
+                <img src="/char one piece/luffy.jpg" alt="" srcset="">
+                <h4>Monkey D Luffy</h4>
+                <p>Role: Pirates Captain</p>
+                <p>Bounty: 3.000.000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/zoro.jpg" alt="" srcset="">
+                <h4>Roronoa Zoro</h4>
+                <p>Role: Right-hand Man</p>
+                <p>Bounty: 1,111,000,000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/nami.jpg" alt="" srcset="">
+                <h4>Nami</h4>
+                <p>Role: Navigator</p>
+                <p>Bounty: 366.000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/usopp.jpg" alt="" srcset="">
+                <h4>Usopp</h4>
+                <p>Role: Sniper</p>
+                <p>Bounty: 500.000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/sanji.jpg" alt="" srcset="">
+                <h4>Vinsmoke Sanji</h4>
+                <p>Role: Cook</p>
+                <p>Bounty: 1,032,000,000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/chopper.jpg" alt="" srcset="">
+                <h4>Tony Tony Chopper</h4>
+                <p>Role: Doctor</p>
+                <p>Bounty: 1000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/robin.jpg" alt="" srcset="">
+                <h4>Nico Robin</h4>
+                <p>Role: Archaeologist</p>
+                <p>Bounty :930.000.000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/franky.jpg" alt="" srcset="">
+                <h4>Franky</h4>
+                <p>Role: Shipwright</p>
+                <p>Bounty: 394,000,000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/brook.jpg" alt="" srcset="">
+                <h4>Brook</h4>
+                <p>Role: Musician</p>
+                <p>Bounty: 383.000.000</p>
+            </div>
+            <div class="characters">
+                <img src="/char one piece/jinbei.jpg" alt="" srcset="">
+                <h4>Jinbe</h4>
+                <p>Role: Helmsman</p>
+                <p>Role: 1.100.000</p>
+            </div>
+         </section>
+         <!-- Crew End -->
+
+         <!-- Contact Start -->
+         <section id="contact" class="contact-form">
+            <h4>Contact Sunny’s Logbook</h4><br><br>
+            <form action="#" method="post">
+                <label for="firstname">Firstname: </label><br>
+                <input type="text" id="firstname" name="firstname" required>
+
+                <label for="lastname">Lastname: </label><br>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="character">Character Favorit: </label><br>
+                <select name="character" id="character">
+                    <option value="luffy">Luffy</option>
+                    <option value="zoro">Zoro</option>
+                    <option value="nami">Nami</option>
+                    <option value="usopp">Usopp</option>
+                    <option value="sanji">Sanji</option>
+                    <option value="chopper">Chopper</option>
+                    <option value="robin">Robin</option>
+                    <option value="franky">Franky</option>
+                    <option value="brook">Brook</option>
+                    <option value="jinbe">Jinbe</option>
+                </select>
+
+                <label for="reason">Reason: </label><br>
+                <textarea name="reason" id="reason" cols="30" rows="10"></textarea>
+                <button type="submit">Send</button>
+            </form>
+         </section>
+         <!-- Contact End -->
+
     </div>
 </body>
 </html>
